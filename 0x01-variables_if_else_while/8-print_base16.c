@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- *main function will output hexadecimal numbers
- *main function return 0
- */
+* main - Entry point
+*
+* Return: Always 0 (success)
+*/
 int main(void)
 {
 char cha;
