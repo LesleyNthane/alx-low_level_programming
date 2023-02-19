@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- *main function outputs combination of two digits numbers
- *main function returns 0
- */
+* main - Entry point
+*
+* Return: Always 0 (success)
+*/
 int main(void)
 {
 int num1;
