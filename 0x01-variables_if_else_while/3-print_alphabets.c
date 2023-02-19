@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- *main function will print alphabets in both lowercase and uppercase
- *main function returns 0
- */
+* main - Entry
+*
+* Return: Always 0 (success)
+*/
 int main(void)
 {
 char charecter;
