@@ -1,9 +1,9 @@
 #include <stdio.h>
-
 /**
- *main function will output tha alphabets in reverse
- *main function returns 0
- */
+* main - Entry point
+*
+* Return: Always 0 (success)
+*/
 int main(void)
 {
 char cha;
