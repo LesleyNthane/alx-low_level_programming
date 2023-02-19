@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- *main function output all combination of single digits
- *main function returns o
- */
+* main - Entry point
+*
+* Return: Always 0 (success)
+*/
 int main(void)
 {
 int number;
