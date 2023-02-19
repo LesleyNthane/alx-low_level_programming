@@ -2,9 +2,10 @@
 #include <stdlib.h>
 
 /**
- *main function outputs combination of three digits
- *main function returns 0
- */
+* main - Entry point
+*
+* Return: Always 0 (success)
+*/
 int main(void)
 {
 int a;
