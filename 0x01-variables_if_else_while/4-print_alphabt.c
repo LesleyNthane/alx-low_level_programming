@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- *main function prints alphabets except q and e
- *main function returns 0
- */
+* main - Entry
+*
+* Return: Always 0 (success)
+*/
 int main(void)
 {
 char cha;
