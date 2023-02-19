@@ -1,9 +1,9 @@
 #include <stdio.h>
-
 /**
- * main function outputs singlr digits in base 10
- *main function returns 0
- */
+* main - Entry point
+*
+* Return: Always 0 (success)
+*/
 int main(void)
 {
 int number;
