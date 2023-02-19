@@ -1,9 +1,9 @@
 #include <stdio.h>
-
 /**
- *main will output single digits from 0 to 9
- *main function returns 0
- */
+* main - Entry point
+*
+* Return: Always 0 (success)
+*/
 int main(void)
 {
 int number;
