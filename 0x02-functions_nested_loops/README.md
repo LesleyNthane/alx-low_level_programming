@@ -1,0 +1,1 @@
+This project is about functions and nested loops in C programming\nTechnologies\n\nwe will be using shell navigation and emacs/ vi as our pragramming environment and betty for our style of programmingcd 0x02-functions_nested_loops
