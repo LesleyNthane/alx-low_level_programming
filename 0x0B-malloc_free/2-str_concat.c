@@ -22,7 +22,7 @@ s2 = "";
 while (s1[i])
 i++;
 
-while (s2[i])
+while (s2[j])
 j++;
 
 l = i + j;
@@ -42,7 +42,7 @@ if (k >= i)
 s[k] = s2[j];
 j++;
 }
-k++;
+k++;x
 }
 s[k] = '\0';
 return (s);
