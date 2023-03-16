@@ -26,7 +26,7 @@ k++;
 if (n >= k)
 l = i + k;
 else
-l = i +n;
+l = i + n;
 
 str = malloc(sizeof(char) * l + 1);
 if (str == NULL)
