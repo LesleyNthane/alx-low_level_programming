@@ -56,7 +56,7 @@ return (array);
  */
 char *iterate_zeroes(char *str)
 {
-while (*str && *str =='0')
+while (*str && *str == '0')
 str++;
 
 return (str);
@@ -143,7 +143,7 @@ for (; *final_prod != 'x'; final_prod--)
 num = (*final_prod - '0') + (*next_prod - '0');
 num += tens;
 *final_prod = (num % 10) + '0';
-tens = num / 10;\
+tens = num / 10;
 
 final_prod--;
 next_prod--;
@@ -184,7 +184,7 @@ if (*(argv[1]) == '0')
 argv[1] = iterate_zeroes(argv[1]);
 if (*(argv[2]) == '0')
 argv[2] = iterate_zeroes(argv[2]);
-if (*(argv[1]) =='\0' || *(argv[2]) == '\0')
+if (*(argv[1]) == '\0' || *(argv[2]) == '\0')
 {
 printf("0\n");
 return (0);
