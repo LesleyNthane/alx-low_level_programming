@@ -1,0 +1,26 @@
+#include "main.h"
+/**
+ * print_binary - prints a binary number
+ * @n: number to print in bin
+ * Return: Nothing
+ */
+void print_binary(unsigned long int n)
+{
+int index;
+int count;
+unsigned long int c;
+
+for (index = 63; index >= 0; index--)
+{
+c = n >> index;
+if (c & 1)
+{
+_putchar('1');
+count++;
+}
+else if (count)
+_putchar('0');
+}
+if (!count)
+_putchar('0');
+}
